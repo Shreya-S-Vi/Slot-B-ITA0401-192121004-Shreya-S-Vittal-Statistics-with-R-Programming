@@ -1,0 +1,16 @@
+m1 <- matrix(1:20,nrow=5,ncol=4)
+print("5 x 4 matrix:")
+print(m1)
+
+cells <- c(1,3,5,7,9,11,13,15,17)
+rnames <- c("Row1","Row2","Row3")
+cnames <- c("Col1","Col2","Col3")
+m2 <- matrix(cells,nrow=3,ncol=3,byrow=TRUE,dimnames=list(rnames,cnames))
+print("3 x 3 matrix with labels, filled by rows:")
+print(m2)
+
+m3 <- matrix(c(1,2,3,4),nrow=2,ncol=2)
+rownames(m3) <- c("x","y")
+colnames(m3) <- c("a","b")
+print("2 x 2 matrix with labels, filled by columns:")
+print(m3)

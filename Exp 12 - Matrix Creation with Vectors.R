@@ -1,0 +1,11 @@
+a <- c(10,20,30)
+b <- c(40,50,60)
+c <- c(70,80,90)
+print("Given vectors:")
+print(a)
+print(b)
+print(c)
+
+matrix <- matrix(cbind(a,b,c),nrow=3,ncol=3)
+print("Matrix created from given vectors:")
+print(matrix)

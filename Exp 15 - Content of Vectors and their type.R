@@ -1,0 +1,6 @@
+a <- c(1,2,5,3,4,0,-1,-3)
+b <- c("Red","Green","White")
+c <- c(TRUE,TRUE,TRUE,FALSE,TRUE,FALSE)
+cat("Vector:",a,"\nType:",typeof(a),"\n")
+cat("Vector:",b,"\nType:",typeof(b),"\n")
+cat("Vector:",c,"\nTYpe:",typeof(c),"\n")
